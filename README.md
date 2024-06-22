@@ -16,6 +16,7 @@
 The Text-Summerization.ipynb is an implementation of text summarization using the Pegasus model with the Transformers library.
 
 Dataset: Samsum
+
     @article{gliwa2019samsum,
     title={SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization},
     author={Gliwa, Bogdan and Mochol, Iwona and Biesek, Maciej and Wawer, Aleksander},
