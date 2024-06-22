@@ -13,9 +13,29 @@
 
 # Text-Summerization-NLP
 
-The Text-Summerization.ipynb is an implementation of text summarization using the Pegasus model with the Transformers library. 
+The Text-Summerization.ipynb is an implementation of text summarization using the Pegasus model with the Transformers library.
 
-## Implementation:
+Dataset: Samsum
+@article{gliwa2019samsum,
+  title={SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization},
+  author={Gliwa, Bogdan and Mochol, Iwona and Biesek, Maciej and Wawer, Aleksander},
+  journal={arXiv preprint arXiv:1911.12237},
+  year={2019}
+}
+
+Model: Pegasus
+
+@misc{zhang2019pegasus,
+    title={PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization},
+    author={Jingqing Zhang and Yao Zhao and Mohammad Saleh and Peter J. Liu},
+    year={2019},
+    eprint={1912.08777},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+
+
+<!-- ## Implementation:
 
 
 1. Loading Data and Preprocessing: The code downloads a dataset from GitHub and preprocesses it for training the model.
@@ -28,7 +48,14 @@ The Text-Summerization.ipynb is an implementation of text summarization using th
 
 5. Saving Model and Tokenizer: Once training and evaluation are complete, the code saves the trained model and tokenizer for future use.
 
-6. Prediction: Finally, it uses the trained model to generate summaries for sample dialogues from the test dataset and compares them with the reference summaries.
+6. Prediction: Finally, it uses the trained model to generate summaries for sample dialogues from the test dataset and compares them with the reference summaries. -->
 
-## Future work
-The goal is to deploy this model on AWS using Amazon EC2. Containerize the application using Docker.  Set up an API endpoint using AWS API Gateway to provide a standardized interface for interacting with the model. Develop a UI to interact with summarization model.   
+<!-- ## Future work
+The goal is to deploy this model on AWS using Amazon EC2. Containerize the application using Docker.  Set up an API endpoint using AWS API Gateway to provide a standardized interface for interacting with the model. Develop a UI to interact with summarization model.    -->
+
+<!-- ## References
+
+<a id="1">[1]</a> 
+SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization
+Gliwa, Bogdan and Mochol, Iwona and Biesek, Maciej and Wawer, Aleksander
+arXiv preprint arXiv:1911.12237 -->
