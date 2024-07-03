@@ -3,7 +3,7 @@ from textSummarizer.components.model_evaluation import ModelEvaluation
 from textSummarizer.logging import logger
 
 
-class ModelTrainerTrainingPipeline:
+class ModelEvaluationTrainingPipeline:
     def __init__(self):
         pass
 
