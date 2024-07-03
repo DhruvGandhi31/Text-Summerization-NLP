@@ -103,7 +103,7 @@ open up you local host and port
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/text-s
+    <!-- - Save the URI: 851725573858.dkr.ecr.eu-north-1.amazonaws.com/text-s -->
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
